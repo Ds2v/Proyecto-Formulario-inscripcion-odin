@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'rubik-microbe-regular';
+    src: url('./assets/fonts/RubikMicrobe-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'michroma-regular';
+    src: url('./assets/fonts/Michroma-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 54px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+strong {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background: #596D48;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+span {
+    text-align: left;
+    color: green;
+    font-size: 1rem;
+    margin-top: 10px;
+    display: flex;
+    font-family: 'michroma-regular';
+    font-size: 14px;
+
+}
+
+.container-main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.parraf-section {
+    font-family: 'michroma-regular';
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+.image-section {
+    flex: 1;
+    max-width: 500px;
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80') center center/cover no-repeat;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 80px;
+    background: #f7f7f7;
+}   
+
+.name-row {
+    display: flex;
+    gap: 26px;
+}
+
+.name-row > .input-group {
+    flex: 1;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 3px solid green;
+    /*margin-bottom: 35px;*/
+    padding: 9px;
+    border-radius: 5px;
+}
+
+input:focus {
+    
+    border: 3px solid blue;
+    padding: 12px;
+}
+
+/*input:valid {
+    border-color: green;
+}*/
+
+input:invalid {
+    border: 3px solid red;
+}
