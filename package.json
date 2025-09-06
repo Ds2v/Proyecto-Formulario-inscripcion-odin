@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-formulario-inscripcion-odin",
+  "version": "1.0.0",
+  "description": "Proyecto formulario inscripcion aplicando conceptos intermedios de HTML y CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
